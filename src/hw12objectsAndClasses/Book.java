@@ -26,4 +26,5 @@ package hw12objectsAndClasses;
         public void setPublishingYear(int publishingYear) {
             this.publishingYear = publishingYear;
         }
+
 }
