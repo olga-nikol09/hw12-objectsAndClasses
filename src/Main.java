@@ -8,8 +8,7 @@ public class Main {
         Book hp1 = new Book("Гарри Поттер и филосовский камень", rowling, 1997);
         Book mysteriousIsland = new Book("Таинтвенный остров", vern, 1875);
         mysteriousIsland.setPublishingYear(2016);
-        System.out.println(mysteriousIsland.getBookName() + " "  +  mysteriousIsland.getAuthorName().getName() + " " + mysteriousIsland.getPublishingYear());
-
-        System.out.println(hp1.getBookName() + " " + hp1.getAuthorName().getName() + " " + hp1.getPublishingYear());
+        System.out.println(rowling);
+        System.out.println(mysteriousIsland);
     }
 }
